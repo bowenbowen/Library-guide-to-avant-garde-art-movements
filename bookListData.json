@@ -1,0 +1,457 @@
+var mainList = [
+  {
+    "index": 1,
+    "title": "The 20th-century art book",
+    "author": "Rachel Barnes",
+    "subjects": "Art, Modern -- 20th century",
+    "publisher": "London : Phaidon",
+    "date": 1996,
+    "availability": "Caulfield Library<br>Folios - Level 4 West<br>709.04 TWEN",
+    "cover": "img/The_20th-century_art_book.jpg"
+  },
+  {
+    "index": 2,
+    "title": "Art on the cutting edge: a guide to contemporary movements",
+    "author": "Lea. Vergine",
+    "subjects": "Art, Modern -- 20th century; Art movements",
+    "publisher": "Milan : Skira ; London : Thames and Hudson distributor",
+    "date": 2001,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.04 V497A 2001",
+    "cover": "img/Art_on_the_cutting_edge_a _guide_to_contemporary_movements.jpg"
+  },
+  {
+    "index": 3,
+    "title": "A history of 20th century art",
+    "author": "Bernard. Blistène",
+    "subjects": "Art, Modern -- 20th century",
+    "publisher": "Paris : Flammarion : Beaux Arts magazine",
+    "date": 2001,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.04 B649H 2001",
+    "cover": "img/A_history_of_20th_century_art.jpg"
+  },
+  {
+    "index": 4,
+    "title": "Modern art movements",
+    "author": "Trewin. Copplestone",
+    "subjects": "Painting, Modern -- 20th century",
+    "publisher": "London : P. Hamlyn",
+    "date": 1962,
+    "availability": "Matheson Library<br>General Collection: Levels 2-4<br>709.04 B649H 2002",
+    "cover": "img/modern_art_movements.jpg"
+  },
+  {
+    "index": 5,
+    "title": "Revolutionary time and the avant-garde",
+    "author": "John Roberts",
+    "subjects": "Avant-garde (Aesthetics); Art -- Philosophy",
+    "publisher": "London ; New York : Verso",
+    "date": 2015,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>701 R645R 2015",
+    "cover": "img/Revolutionary_time_and_the_avant-garde.jpg"
+  },
+  {
+    "index": 6,
+    "title": "Styles, schools and movements : the essential encyclopaedicguide to modern art",
+    "author": "Amy Dempsey",
+    "subjects": "Art movements -- Encyclopedias; Art, Modern -- 19th century -- Encyclopedias; Art, Modern-- 20th century -- Encyclopedias",
+    "publisher": "London : Thames & Hudson",
+    "date": 2010,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.04 D389S 2010",
+    "cover": "img/Styles_schools_and_movements_the_essential_encyclopaedic_guide_to_modern_art.jpg"
+  }
+]
+
+
+
+//----------------------------------------------------------------------------------------------------
+
+
+
+var futurismList = [
+  {
+    "index": 1,
+    "title": "Futurism (Futurisme à Paris)",
+    "author": "Didier Ottinger; Ester Cohen; Tate Modern (Gallery); Scuderie Papali al Quirinale.; Centre Georges Pompidou",
+    "subjects": "Futurism (Art) -- Exhibitions; Cubo-futurism (Art) -- Exhibitions",
+    "publisher": "Milan : 5 Continents",
+    "date": 2009,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.04033 O89F 2009",
+    "cover": "img/Futurism.jpg"
+  },
+  {
+    "index": 2,
+    "title": "Futurism & futurisms",
+    "author": "K. G. Hultén (Karl Gunnar), Pontus Hultén",
+    "subjects": "Futurism (Art) -- Exhibitions; Arts, Modern -- 20th century -- Exhibitions",
+    "publisher": "London : Thames and Hudson",
+    "date": 1987,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.04 HUL",
+    "cover": "img/Futurism_and_futurisms.jpg"
+  },
+  {
+    "index": 3,
+    "title": "Futurism",
+    "author": "Sylvia Martin",
+    "subjects": "Futurism (Art)",
+    "publisher": "Köln ; London ; Los Angeles : Taschen",
+    "date": 2005,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.04033 M383F 2005<br><br>Matheson Library<br>General Collection<br>709.04033 M383F 2005",
+    "cover": "img/Futurism2.jpg"
+  },
+  {
+    "index": 4,
+    "title": "Futurism & photography",
+    "author": "Giovanni. Lista",
+    "subjects": "Photography, Artistic; Futurism (Art)",
+    "publisher": "London : Merrell",
+    "date": 2001,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>770.904 L773F 2001",
+    "cover": "img/Futurism_and_ photography.jpg"
+  },
+  {
+    "index": 5,
+    "title": "Performance art : from futurism to the present",
+    "author": "RoseLee Goldberg",
+    "subjects": "Performance art; Arts, Modern -- 20th century; Arts, Modern -- 21st century; Group work in art",
+    "publisher": "London ; New York : Thames & Hudson",
+    "date": 2011,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.04074 G618P 2011",
+    "cover": "img/Performance_art_from_futurism_to_the_present.jpg"
+  },
+  {
+    "index": 6,
+    "title": "Futurism and the technological imagination",
+    "author": "Günter Berghaus",
+    "subjects": "Futurism (Art) -- History -- 20th century; Technology -- Aesthetics; Art and technology -- Philosophy; Avant-garde (Aesthetics) -- History -- 20th century",
+    "publisher": "Amsterdam ; New York, N.Y. : Rodopi",
+    "date": 2009,
+    "availability": "<a href=\"https://ap01-a.alma.exlibrisgroup.com/view/action/uresolver.do?operation=resolveService&package_service_id=2233409233120001751&institutionId=1751&customerId=1740\">Brill Online</a>",
+    "cover": "img/Futuris_and_the_technological_imagination.jpg"
+  }
+]
+
+
+//----------------------------------------------------------------------------------------------------
+
+
+
+var constructivismList = [
+  {
+    "index": 1,
+    "title": "Constructivism",
+    "author": "Konstruktivizm",
+    "subjects": "Constructivism (Art) -- Soviet Union; Art, Soviet",
+    "publisher": "Barcelona : Editorial Tenov",
+    "date": 2013,
+    "availability": "Matheson Library<br>General Collection<br>709.47 G195C 2013",
+    "cover": "img/Constructivism.jpg"
+  },
+  {
+    "index": 2,
+    "title": "After constructivism",
+    "author": "Brandon Taylor",
+    "subjects": "Constructivism (Art); Art, Modern -- 20th century; ART / Criticism et Theory / bisacsh; ART / History / Contemporary (1945-) / bisacsh; ART / History / Modern (late 19th Century to 1945) / bisacsh",
+    "publisher": "London ; New Haven : Yale University Press",
+    "date": 2014,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.04057 T238A 2014",
+    "cover": "img/After_constructivism.jpg"
+  },
+  {
+    "index": 3,
+    "title": "Russian constructivism",
+    "author": "Christina Lodder",
+    "subjects": "Constructivism (Art) -- Soviet Union; Art, Modern -- 20th century -- Soviet Union",
+    "publisher": "New Haven Conn. ; London : Yale University Press",
+    "date": 1983,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.47 L821R 1983<br><br>Matheson Library<br>General Collection<br>709.47 L821R<br><br>",
+    "cover": "img/Russian_constructivism.jpg"
+  },
+  {
+    "index": 4,
+    "title": "Constructivism : origins and evolution",
+    "author": "George Rickey",
+    "subjects": "Space perception; Art, European; Composition (Art); Art, Modern -- 20th century; Art, Abstract; Constructivism (Art)",
+    "publisher": "New York : George Braziller",
+    "date": "1967 - 1969",
+    "availability": "Matheson Library<br>General Collection<br>709.04 R539C",
+    "cover": "img/Constructivism_origins_and_evolution.jpg"
+  },
+  {
+    "index": 5,
+    "title": "The artist as producer : Russian constructivism in revolution",
+    "author": "Maria Gough",
+    "subjects": "INKhUK (Art school); Constructivism (Art) -- Russia (Federation);Art -- Political aspects -- Russia (Federation)",
+    "publisher": "Berkeley : University of California Press",
+    "date": 2005,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.4709041 G692A 2005",
+    "cover": "img/The_artist_as_producer_Russian_constructivism_in_revolution.jpg"
+  }
+]
+
+
+//----------------------------------------------------------------------------------------------------
+
+
+var dadaList = [
+  {
+    "index": 1,
+    "title": "Dada",
+    "author": "Rudolf E Kuenzli",
+    "subjects": "Dadaism; Arts, Modern -- 20th century",
+    "publisher": "London : Phaidon Press Ltd. ; New York : Phaidon Press Inc.",
+    "date": 2006,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.04062 K95D 2006",
+    "cover": "img/Dada.jpg"
+  },
+  {
+    "index": 2,
+    "title": "Looking at Dada",
+    "author": "Sarah Ganz Blythe",
+    "subjects": "Dadaism -- Exhibitions; Art, Modern -- 20th century -- Exhibitions",
+    "publisher": "New York, N.Y. : Museum of Modern Art",
+    "date": 2006,
+    "availability": "Matheson Library<br>General Collection<br>709.04062 B661L 2006<br><br>Caulfield Library<br>General Collection: Levels 2-4<br>709.04062 B661L 2006",
+    "cover": "img/Looking_at_Dada.jpg"
+  },
+  {
+    "index": 3,
+    "title": "Seven Dada manifestos and Lampisteries",
+    "author": "Tristan Tzara",
+    "subjects": "Dadaism; Arts, Modern -- 20th century; Experimental writing in French Romanian writers 1900-1945 Translations",
+    "publisher": "London : Calder",
+    "date": 1977,
+    "availability": "Matheson Library<br>General Collection<br>840.912 T998 A28/W",
+    "cover": "img/Seven_Dada_manifestos_and_Lampisteries.jpg"
+  },
+  {
+    "index": 4,
+    "title": "The Dada almanac",
+    "author": "Richard Huelsenbeck",
+    "subjects": "Dadaism; Arts, Modern -- 20th century",
+    "publisher": "",
+    "date": 1993,
+    "availability": "Matheson Library<br>General Collection<br>830.912 A HUE.D/g",
+    "cover": "img/The_Dada_almanac.jpg"
+  },
+  {
+    "index": 5,
+    "title": "The Dada movement",
+    "author": "Marc Dachy",
+    "subjects": "Dadaism; Arts, Modern -- 20th century",
+    "publisher": "Geneva : Skira ; New York : Rizzoli",
+    "date": 1990,
+    "availability": "Matheson Library<br>General Collection<br>f 700.904 D117J/t<br><br>Caulfield Library<br>Folios - Level 4<br>700.904 DAC",
+    "cover": "img/The_dada_movement.jpg"
+  },
+  {
+    "index": 6,
+    "title": "Dada, art and anti-art",
+    "author": "Hans Richter",
+    "subjects": "Dadaism; Art, Modern -- 20th century",
+    "publisher": "New York : Oxford University Press",
+    "date": "1978 - 1966",
+    "availability": "Peninsula Library<br>General Collection<br>759.06 R535",
+    "cover": "img/Dada_art_and_anti_art.jpg"
+  }
+]
+
+
+//----------------------------------------------------------------------------------------------------
+
+
+var DestijlList = [
+  {
+    "index": 1,
+    "title": "De Stijl",
+    "author": "Paul Overy",
+    "subjects": "De Stijl (Art movement) -- Netherlands; Art, Dutch -- 20th century;Modernism; Netherlands",
+    "publisher": "New York, N.Y. : Thames and Hudson",
+    "date": 1991,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.492 OVE<br><br>Matheson Library<br>General Collection<br>709.04 O96D",
+    "cover": "img/De_stijl.jpg"
+  },
+  {
+    "index": 2,
+    "title": "The ideal as art : De Stijl 1917-1931",
+    "author": "Carsten-Peter Warncke",
+    "subjects": "De Stijl (Art movement); Art, Dutch -- 20th century; Artists -- Netherlands -- Biography",
+    "publisher": "Köln Germany : Benedikt Taschen",
+    "date": 1991,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.492 DES:WAR",
+    "cover": "img/The_ideal_as_art_De_Stijl.jpg"
+  },
+  {
+    "index": 3,
+    "title": "De Stijl, the formative years, 1917-1922",
+    "author": "Beginjaren van De Stijl",
+    "subjects": "De Stijl (Art movement); Art, Dutch -- 20th century; Artists -- Netherlands -- Biography",
+    "publisher": "Cambridge, Mass. : MIT Press",
+    "date": 1986,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.492 DES 2<br><br>Matheson Library<br>General Collection<br>709.492 B412/l<br><br>Peninsula Library<br>General Collection<br>709.492 D476.1",
+    "cover": "img/De_Stijl_the_formative_years.jpg"
+  },
+  {
+    "index": 4,
+    "title": "Mondrian, De Stijl",
+    "author": "Hans Janssen,‎ Franz Kaiser,‎ Matthias Mühling,‎ Felicia Rappe ,‎ Piet Mondrian",
+    "subjects": "Mondrian, Piet, 1872-1944 -- Exhibitions; De Stijl (Art movement) -- Exhibitions; Art, European -- 20th century -- Exhibitions",
+    "publisher": "Ostfildern : Hatje Cantz",
+    "date": 2011,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.4 M741M 2011",
+    "cover": "img/Mondrian_De_Stijl.jpg"
+  },
+  {
+    "index": 5,
+    "title": "De Stijl and Dutch modernism",
+    "author": "Michael White",
+    "subjects": "De Stijl (Art movement); Modernism (Art) -- Netherlands; Modern movement (Architecture) -- Netherlands",
+    "publisher": "Manchester : Manchester University Press",
+    "date": 2003,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.492 W586D 2003<br><br>Matheson Library<br>General Collection<br>709.492 W586D 2003",
+    "cover": "img/De_Stijl_and_Dutch_modernism.jpg"
+  },
+  {
+    "index": 6,
+    "title": "De Stijl, 1917-1931 : visions of Utopia",
+    "author": "Hans Ludwig C. Jaffe",
+    "subjects": "De Stijl (Art movement) -- Exhibitions",
+    "publisher": "Minneapolis : Walker Art Center ; New York : Abbeville Press",
+    "date": 1982,
+    "availability": "Matheson Library<br>General Collection<br>709.04 D476.f",
+    "cover": ""
+  }
+]
+
+
+//----------------------------------------------------------------------------------------------------
+
+
+var bauhausList = [
+  {
+    "index": 1,
+    "title": "Bauhaus",
+    "author": "Boris Friedewald",
+    "subjects": "Bauhaus; Design -- Germany -- History -- 20th century; Architecture, Modern -- 20th century -- Germany; Arts, German -- 20th century; Arts, Modern -- 20th century -- Germany",
+    "publisher": "Munich : Prestel",
+    "date": 2009,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.4309042 F899B 2009",
+    "cover": "img/Bauhaus_Boris_Friedewald.jpg"
+  },
+  {
+    "index": 2,
+    "title": "The Bauhaus, 1919-1933 : reform and Avant-Garde",
+    "author": "Magdalena Droste",
+    "subjects": "Bauhaus -- History -- Exhibitions; Art, German -- 20th century -- Exhibitions; Art -- Study and teaching -- Germany -- Exhibitions;Avant-garde (Aesthetics) -- Germany -- Exhibitions",
+    "publisher": "Köln : Taschen",
+    "date": 2012,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.4309042 D787B 2012",
+    "cover": "img/The_Bauhaus_1919-1933_reform_and_Avant-Garde.jpg"
+  },
+  {
+    "index": 3,
+    "title": "Art to hear : Bauhaus: a conceptual model",
+    "author": "Bauhaus-Archiv, Museum für Gestaltung.; Stiftung BauhausDessau.; Klassik Stiftung Weimar.; Museum of Modern Art (New York, N.Y.)",
+    "subjects": "Bauhaus; Artists -- Germany; Designers -- Germany; Furniture -- Germany; Architecture -- Germany; Art, African -- Themes, motives",
+    "publisher": "Berlin, Germany : Martin-Gropius-Bau/Hatje Cantz",
+    "date": 2009,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.4309042 B346A 2009",
+    "cover": "img/Art_to_hear_Bauhaus_a_conceptual_model.jpg"
+  },
+  {
+    "index": 4,
+    "title": "Design and form : the basic course at the Bauhaus",
+    "author": "Johannes Itten",
+    "subjects": "Bauhaus; Art -- Study and teaching -- Germany (West); Art -- Technique",
+    "publisher": "London : Thames and Hudson",
+    "date": 1975,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>707.15 I91D 1975",
+    "cover": "img/Design_and_form_the_basic_course_at_the_Bauhaus.jpg"
+  },
+  {
+    "index": 5,
+    "title": "Bauhaus : crucible of modernism",
+    "author": "Elaine S. Hochman",
+    "subjects": "Bauhaus -- History",
+    "publisher": "New York : Fromm International",
+    "date": 1997,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.43 H685B 1997",
+    "cover": "img/Bauhaus_crucible_of_modernism.jpg"
+  },
+  {
+    "index": 6,
+    "title": "The Bauhaus and America : first contacts, 1919-1936",
+    "author": "Margret Kentgens-Craig",
+    "subjects": "Bauhaus -- Influence; Architecture, German -- United States; Architecture -- United States -- History -- 20th century",
+    "publisher": "Cambridge, Mass. ; London : MIT Press",
+    "date": 1999,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>724.6 K37B 1999",
+    "cover": "img/The_Bauhaus_and_America_first_contacts.jpg"
+  }
+]
+
+
+//----------------------------------------------------------------------------------------------------
+
+
+var popartList = [
+  {
+    "index": 1,
+    "title": "Pop art",
+    "author": "Bradford R. Collins",
+    "subjects": "Pop art -- History; Art -- 20th century",
+    "publisher": "London : Phaidon Press",
+    "date": 2012,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.04071 C712P 2012<br><br>Matheson Library<br>General Collection<br>709.04071 C712P 2012",
+    "cover": "img/Pop_art.jpg"
+  },
+  {
+    "index": 2,
+    "title": "Pop art design",
+    "author": "Mateo Kries; Mathias Schwartz-Clauss; Diedrich Diederichsen",
+    "subjects": "Pop art -- Exhibitions",
+    "publisher": "Weil : Vitra Design Museum",
+    "date": 2012,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.04071 K92P 2012",
+    "cover": "img/Pop_art_design.jpg"
+  },
+  {
+    "index": 3,
+    "title": "Pop art book",
+    "author": "Nadine Käthe Monem; Julia Bigham; Wolverhampton Art Gallery",
+    "subjects": "Pop art",
+    "publisher": "London : Black Dog Publishing",
+    "date": 2007,
+    "availability": "Caulfield Library<br>General Collection: Levels 2-4<br>709.04071 M742P 2007",
+    "cover": "img/Pop_art_book.jpg"
+  },
+  {
+    "index": 4,
+    "title": "Pop art redefined",
+    "author": "John Russell, Suzi Gablik",
+    "subjects": "Pop art; Pop art -- Exhibitions; Art, Modern -- 20th century -- Exhibitions",
+    "publisher": "New York : Praeger",
+    "date": 1969,
+    "availability": "Matheson Library<br>General Collection<br>709.04 R964P",
+    "cover": "img/Pop_art_redefined.jpg"
+  },
+  {
+    "index": 5,
+    "title": "Pop art UK : British pop art 1956-1972",
+    "author": "Marco Livingstone; Walter Guadagnini; Luca Massimo Barbero",
+    "subjects": "Pop art -- Great Britain",
+    "publisher": "Cinisello Balsamo Milano : Silvana",
+    "date": 2004,
+    "availability": "Matheson Library  General Collection  709.410904 L788P 2004",
+    "cover": "img/Pop_art_UK_British_pop_art_1956-1972.jpg"
+  },
+  {
+    "index": 6,
+    "title": "Pop art and the critics",
+    "author": "Carol Anne Runyon Mahsun",
+    "subjects": "Pop art -- United States -- Themes, motives; Art, American -- 20th century -- Themes, motives; Art criticism -- United States -- History -- 20th century",
+    "publisher": "Ann Arbor, Mich. : UMI Research Press",
+    "date": 1987,
+    "availability": "Matheson Library<br>General Collection<br>709.73 M216P",
+    "cover": "img/Pop_art_and_the_critics.jpg"
+  }
+]

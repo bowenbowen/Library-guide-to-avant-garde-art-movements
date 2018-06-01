@@ -1,0 +1,56 @@
+var overviewData = [
+  {
+    "index": 1,
+    "name": "Futurism",
+    "start": 1909,
+    "end": 1944,
+    "description": "Futurism was an artistic and social movement that originated in Italy in the early 20th century. It emphasized speed, technology, youth, and violence, and objects such as the car, the aeroplane, and the industrial city. Although it was largely an Italian phenomenon, there were parallel movements in Russia, England, Belgium and elsewhere. The Futurists practiced in every medium of art, including painting, sculpture, ceramics, graphic design, industrial design, interior design, urban design, theatre, film, fashion, textiles, literature, music, architecture, and even Futurist meals.",
+    "location": "Italy, Russia, England, Belgium",
+    "picture": "img/Movement_futurism.jpg"
+  },
+  {
+    "index": 2,
+    "name": "Constructivism",
+    "start": 1913,
+    "end": 1935,
+    "description": "Constructivism was an artistic and architectural philosophy that originated in Russia beginning in 1913 by Vladimir Tatlin. This was a rejection of the idea of autonomous art. He wanted 'to construct' art. The movement was in favour of art as a practice for social purposes. Constructivism had a great effect on modern art movements of the 20th century, influencing major trends such as the Bauhaus and De Stijl movements. Its influence was pervasive, with major effects upon architecture, graphic design, industrial design, theatre, film, dance, fashion and to some extent music.",
+    "location": "Russia",
+    "picture": "img/Movement_constructivism.jpg"
+  },
+  {
+    "index": 3,
+    "name": "Dada",
+    "start": 1916,
+    "end": 1924,
+    "description": "Dada or Dadaism was an art movement of the European avant-garde in the early 20th century, with early centers in Zürich, Switzerland at the Cabaret Voltaire (circa 1916); New York Dada began circa 1915, and after 1920 Dada flourished in Paris. Developed in reaction to World War I, the Dada movement consisted of artists who rejected the logic, reason, and aestheticism of modern capitalist society, instead expressing nonsense, irrationality, and anti-bourgeois protest in their works. The art of the movement spanned visual, literary, and sound media, including collage, sound poetry, cut-up writing, and sculpture. Dadaist artists expressed their discontent with violence, war, and nationalism, and maintained political affinities with the radical left.",
+    "location": "Europe",
+    "picture": "img/Movement_dada.jpg"
+  },
+  {
+    "index": 4,
+    "name": "De Stijl",
+    "start": 1917,
+    "end": 1931,
+    "description": "De Stijl, Dutch for \"The Style\", also known as neoplasticism, was a Dutch artisticmovement founded in 1917 in Leiden. The De Stijl consisted of artists and architects. In a narrower sense, the term De Stijl is used to refer to a body of work from 1917 to 1931 founded in the Netherlands. Proponents of De Stijl advocated pure abstraction and universality by a reduction to the essentials of form and colour; they simplified visual compositions to vertical and horizontal, using only black, white and primary colors.",
+    "location": "Netherlands",
+    "picture": "img/Movement_de_Stijl.jpg"
+  },
+  {
+    "index": 5,
+    "name": "Bauhaus",
+    "start": 1919,
+    "end": 1933,
+    "description": "Staatliches Bauhaus, commonly known simply as Bauhaus, was a German art school operational from 1919 to 1933 that combined crafts and the fine arts, and was famous for the approach to design that it publicised and taught. The Bauhaus was founded by Walter Gropius in Weimar. The German term Bauhaus—literally \"construction house\"—was understood as meaning \"School of Building\", but in spite of its name and the fact that its founder was an architect, the Bauhaus did not have an architecture department during its first years of existence. Nonetheless, it was founded with the idea of creating a \"total\" work of art (Gesamtkunstwerk) in which all arts, including architecture, would eventually be brought together. The Bauhaus style later became one of the most influential currents in modern design, Modernist architecture and art, design and architectural education. The Bauhaus had a profound influence upon subsequent developments in art, architecture, graphic design, interior design, industrial design, and typography.",
+    "location": "Germany",
+    "picture": "img/Movement_bauhaus.jpg"
+  },
+  {
+    "index": 6,
+    "name": "Pop art",
+    "start": 1955,
+    "end": 1970,
+    "description": "Pop art is an art movement that emerged in the mid-1950s in Britain and the late 1950s in the United States. The movement presented a challenge to traditions of fine art by including imagery from popular and mass culture, such as advertising, comic books and mundane cultural objects. One of its aims is to use images of popular (as opposed to elitist) culture in art, emphasizing the banal or kitschy elements of any culture, most often through the use of irony. It is also associated with the artists' use of mechanical means of reproduction or rendering techniques. In pop art, material is sometimes visually removed from its known context, isolated, or combined with unrelated material.",
+    "location": "Britain, United State",
+    "picture": "img/Movement_pop_art.jpg"
+  }
+]
